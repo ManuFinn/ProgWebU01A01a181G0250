@@ -1,0 +1,21 @@
+﻿using Microsoft.AspNetCore.Mvc;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace U01A01a181G0250.Controllers
+{
+    public class HomeController : Controller
+    {
+        public IActionResult Index()
+        {
+            return View();
+        }
+
+        public IActionResult MiPerfil()
+        {
+            return View();
+        }
+    }
+}
